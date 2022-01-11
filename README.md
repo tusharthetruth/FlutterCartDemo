@@ -15,10 +15,10 @@
 
 This app is example of how can we perform CRUD operation in Flutter using Shopping cart problem.Explaination of project level directory -
 
-1- main.dart- Product page entry point
-2- data directory - Product data
-3- product directory - Product category (tab) pages
-4- cart directory - Cart page for cart screen
-5- widget directory - Common product row
+ 1- main.dart- Product page entry point </br> 
+ 2- data directory - Product data</br>
+ 3- product directory - Product category (tab) pages </br>
+ 4- cart directory - Cart page for cart screen </br>
+ 5- widget directory - Common product row </br>
 
-packages - provider, badges, equtable 
+<b>Flutter packages</b> - provider, badges, equtable 
