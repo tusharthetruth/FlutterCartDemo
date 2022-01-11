@@ -1,9 +1,9 @@
-import 'package:cart_demo/product_model.dart';
-import 'package:cart_demo/product_row.dart';
+import 'package:cart_demo/product/model/product_model.dart';
+import 'package:cart_demo/widgets/product_row.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'constants.dart';
+import '../../data/constants.dart';
 
 class Clothes extends StatefulWidget {
   const Clothes({Key? key}) : super(key: key);

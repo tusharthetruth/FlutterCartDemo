@@ -1,9 +1,9 @@
-import 'package:cart_demo/product_model.dart';
-import 'package:cart_demo/product_row.dart';
+import 'package:cart_demo/product/model/product_model.dart';
+import 'package:cart_demo/widgets/product_row.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'constants.dart';
+import '../../data/constants.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({Key? key}) : super(key: key);
@@ -40,11 +40,11 @@ class _CartDataAndNodDataPageState extends State<CartDataAndNodDataPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Icon(
+          const Icon(
             Icons.add_shopping_cart,
             size: 180,
           ),
-          Center(
+          const Center(
             child: Text(
               "Empty cart",
               style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),

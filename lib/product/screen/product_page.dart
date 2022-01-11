@@ -1,9 +1,9 @@
 import 'package:badges/badges.dart';
-import 'package:cart_demo/cartpage.dart';
-import 'package:cart_demo/clothes_page.dart';
-import 'package:cart_demo/constants.dart';
-import 'package:cart_demo/grocery_page.dart';
-import 'package:cart_demo/product_model.dart';
+import 'package:cart_demo/cart/screen/cartpage.dart';
+import 'package:cart_demo/product/screen/clothes_page.dart';
+import 'package:cart_demo/data/constants.dart';
+import 'package:cart_demo/product/screen/grocery_page.dart';
+import 'package:cart_demo/product/model/product_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
