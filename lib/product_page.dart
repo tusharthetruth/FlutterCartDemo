@@ -71,12 +71,13 @@ class _ProductPageState extends State<ProductPage>
         title: const Text("Product"),
         bottom: TabBar(
           controller: _tabController,
+          labelColor: Colors.white,
           tabs: myTabs,
         ),
         actions: [
           Container(
             padding: const EdgeInsets.all(8.0),
-            margin: EdgeInsets.all(5),
+            margin: EdgeInsets.only(right: 15),
             child: Container(
               child: Badge(
                 badgeContent: Text(

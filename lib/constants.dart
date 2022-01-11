@@ -66,7 +66,7 @@ class Constants extends ChangeNotifier {
           if (groceryList[i].cartCount != 0) {
             groceryList[i].cartCount = groceryList[i].cartCount - 1;
             if (groceryList[i].cartCount > 0) {
-              cartList.add(clothesList[i]);
+              cartList.add(groceryList[i]);
             }
           }
         }
