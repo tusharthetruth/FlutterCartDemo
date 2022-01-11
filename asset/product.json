@@ -1,0 +1,30 @@
+[
+  {
+    "productName":"Trouser",
+    "productPrice":500,
+    "productId":1,
+    "cartCount":0,
+    "category": 1
+  },
+  {
+    "productName":"Shirt",
+    "productPrice":400,
+    "productId":2,
+    "cartCount":0,
+    "category": 1
+  },
+  {
+    "productName":"Rice",
+    "productPrice":50,
+    "productId":3,
+    "cartCount":0,
+    "category": 2
+  },
+  {
+    "productName":"Pulse",
+    "productPrice":100,
+    "productId":4,
+    "cartCount":0,
+    "category": 2
+  }
+]
