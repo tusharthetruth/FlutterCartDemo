@@ -21,4 +21,4 @@ This app is example of how can we perform CRUD operation in Flutter using Shoppi
  4- cart directory - Cart page for cart screen </br>
  5- widget directory - Common product row </br>
 
-<b>Flutter packages</b> - provider, badges, equtable 
+<b>Flutter packages</b> - provider, badges, equtable , fluttertoast, auto_route
