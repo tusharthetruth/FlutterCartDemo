@@ -25,12 +25,13 @@ class _ProductRowState extends State<ProductRow> {
         children: [
           Container(
             margin: const EdgeInsets.only(right: 15),
-            child: const CircleAvatar(
-              backgroundColor: Colors.blue,
+            child: CircleAvatar(
+              backgroundColor: Colors.white,
               radius: 30,
-              child: Icon(
-                Icons.shop,
-                size: 40,
+              child: Image.asset(
+                'asset/image/${widget.productModel.icon}',
+                height: 35,
+                width: 35,
               ),
             ),
           ),

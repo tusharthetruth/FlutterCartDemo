@@ -34,7 +34,7 @@ class _ProductPageState extends State<ProductPage>
   List data = [];
 
   Future<String> loadJsonData() async {
-    var jsonText = await rootBundle.loadString('asset/product.json');
+    var jsonText = await rootBundle.loadString('asset/json/product.json');
     setState(() => data = json.decode(jsonText));
     if (data != null) {
       List<ProductModel> list = [];
@@ -44,7 +44,8 @@ class _ProductPageState extends State<ProductPage>
             productName: data[i]['productName'],
             productCategory: data[i]['category'],
             price: data[i]['productPrice'],
-            cartCount: data[i]['cartCount']);
+            cartCount: data[i]['cartCount'],
+            icon: data[i]['icon']);
         list.add(model);
       }
       Provider.of<Constants>(context, listen: false).addProducts(list);

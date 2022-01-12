@@ -1,0 +1,66 @@
+[
+  {
+    "productName": "Trouser",
+    "productPrice": 500,
+    "productId": 111,
+    "cartCount": 0,
+    "category": 1,
+    "icon": "trouser.png"
+  },
+  {
+    "productName": "Shirt",
+    "productPrice": 400,
+    "productId": 112,
+    "cartCount": 0,
+    "category": 1,
+    "icon": "shirt.png"
+  },
+  {
+    "productName": "Blazer",
+    "productPrice": 4000,
+    "productId": 113,
+    "cartCount": 0,
+    "category": 1,
+    "icon": "blazer.png"
+  },
+  {
+    "productName": "Saree",
+    "productPrice": 1200,
+    "productId": 114,
+    "cartCount": 0,
+    "category": 1,
+    "icon": "saree.png"
+  },
+  {
+    "productName": "Rice",
+    "productPrice": 50,
+    "productId": 201,
+    "cartCount": 0,
+    "category": 2,
+    "icon": "rice.png"
+  },
+  {
+    "productName": "Pulse",
+    "productPrice": 100,
+    "productId": 202,
+    "cartCount": 0,
+    "category": 2,
+    "icon": "pulse.png"
+  },
+  {
+    "productName": "Oil",
+    "productPrice": 200,
+    "productId": 203,
+    "cartCount": 0,
+    "category": 2,
+    "icon": "oil.png"
+  },
+  {
+    "productName": "Nut",
+    "productPrice": 1600,
+    "productId": 204,
+    "cartCount": 0,
+    "category": 2,
+    "icon": "nut.png"
+  }
+]
