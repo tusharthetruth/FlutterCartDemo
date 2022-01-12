@@ -1,6 +1,8 @@
 import 'package:cart_demo/product/model/product_model.dart';
+import 'package:cart_demo/utils/utils.dart';
 import 'package:cart_demo/widgets/product_row.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 
 import '../../data/constants.dart';
@@ -114,7 +116,9 @@ class CartDataPage extends StatelessWidget {
                       color: Colors.white,
                       fontSize: 16,
                       fontWeight: FontWeight.bold)),
-              onPressed: () {}),
+              onPressed: () {
+                showToast('Coming soon');
+              }),
         ),
       ],
     );
