@@ -1,21 +1,22 @@
 import 'package:badges/badges.dart';
-import 'package:cart_demo/cart/screen/cartpage.dart';
 import 'package:cart_demo/product/screen/clothes_page.dart';
 import 'package:cart_demo/data/constants.dart';
 import 'package:cart_demo/product/screen/grocery_page.dart';
 import 'package:cart_demo/product/model/product_model.dart';
+import 'package:cart_demo/route/route.gr.dart';
 import 'package:flutter/material.dart';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:auto_route/auto_route.dart';
 
 const String clothes = 'Clothes';
 const String grocery = 'Grocery';
 
 class ProductPage extends StatefulWidget {
-  const ProductPage({Key? key}) : super(key: key);
+  ProductPage({Key? key}) : super(key: key);
 
   @override
   _ProductPageState createState() => _ProductPageState();
@@ -84,8 +85,9 @@ class _ProductPageState extends State<ProductPage>
                     Provider.of<Constants>(context).cartList.length.toString()),
                 child: GestureDetector(
                     onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => CartPage()));
+                      // Navigator.push(context,
+                      //     MaterialPageRoute(builder: (context) => CartPage()));
+                      context.router.push(Cart_route());
                     },
                     child: Icon(Icons.shopping_cart)),
               ),

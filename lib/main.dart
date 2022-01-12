@@ -1,5 +1,6 @@
 import 'package:cart_demo/data/constants.dart';
-import 'package:cart_demo/product/screen/product_page.dart';
+import 'package:cart_demo/product/screen/home_page.dart';
+import 'package:cart_demo/route/route.gr.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -8,15 +9,16 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  final _appRounter = FlutterRouter();
 
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => Constants(),
-      child: MaterialApp(
+      create: (_) => Constants(),
+      child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
-        home: ProductPage(),
+        routeInformationParser: _appRounter.defaultRouteParser(),
+        routerDelegate: _appRounter.delegate(),
       ),
     );
   }
